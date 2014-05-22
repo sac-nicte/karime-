@@ -1,0 +1,38 @@
+﻿@model EmployeeQuiz.Models.Employe
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/StyleSheet2.css" rel="stylesheet" />
+
+    <title>WorkerView</title>
+</head>
+<body>
+    <div>
+
+        <img src="@Url.Content(Model.PhothoPath)" alt ="Sample Image" width="400" height="500" />
+        
+
+
+        <p> <b>ID:</b>@Model.Id</p>
+
+        <p> <b>NOMBRE:</b>@Model.Name</p>
+
+        <p> <b>APELLIDOS:</b>@Model.FirstLastname @Model.SecondLastname</p>
+
+        <p> <b>SALARIO:</b>@Model.Wage</p>
+
+        <p> <b>SEXO:</b>@Model.Sex</p>
+
+
+
+        
+    </div>
+</body>
+</html>

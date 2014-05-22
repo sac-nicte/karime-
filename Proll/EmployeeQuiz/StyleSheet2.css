@@ -1,0 +1,14 @@
+﻿body {
+    color: deepskyblue;
+    font-family: 'Century Gothic';
+    font-size: 18px;
+
+    border: solid 1px #333;
+    background: rgba(2, 124, 212, 1.00);
+    background: -webkit-gradient(linear, left top, left bottom, from(#666), to(#000));
+    background: -moz-linear-gradient(top,  #666,  #000);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#666666', endColorstr='#000000');
+   text-align:center; margin:150px;
+   background-color: lightsalmon;
+   /*color:greenyellow;*/
+}
